@@ -218,8 +218,9 @@ $obj = $query->fetch_assoc()
     <!-- /container -->
   </div>
   <!-- /f -->
-
-  
+  <?php
+  include("index.html");
+  ?>
 
   <!-- Swiper JS -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
